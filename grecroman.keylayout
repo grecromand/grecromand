@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-13 at 14:09 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-13 at 14:18 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Roman" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -58,7 +58,7 @@
             <key code="2" output="δ"/>
             <key code="3" output="φ"/>
             <key code="4" output="η"/>
-            <key code="5" output="Υ"/>
+            <key code="5" output="γ"/>
             <key code="6" action="16"/>
             <key code="7" output="ξ"/>
             <key code="8" output="χ"/>
