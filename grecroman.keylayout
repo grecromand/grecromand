@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-10-12 at 16:51 (UTC+02:00)-->
+<!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-12 at 18:20 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-13 at 14:09 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Roman" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
