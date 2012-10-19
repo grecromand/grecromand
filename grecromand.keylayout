@@ -4,8 +4,8 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 18:14 (UTC+02:00)-->
-<keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 18:22 (UTC+02:00)-->
+<keyboard group="126" id="-27464" name="Grec Romand" maxout="2">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
     </layouts>
@@ -64,7 +64,7 @@
             <key code="8" output="χ"/>
             <key code="9" output="v"/>
             <key code="10" output="§"/>
-            <key code="11" output="β"/>
+            <key code="11" action="β"/>
             <key code="12" action="θ"/>
             <key code="13" action="ω"/>
             <key code="14" action="7"/>
@@ -1088,7 +1088,7 @@
             <when state="none" next="State 5"/>
         </action>
         <action id="5">
-            <when state="none" output=" "/>
+            <when state="none" next="espace"/>
             <when state="State 1" output="῀"/>
             <when state="State 2" output="¨"/>
             <when state="State 3" output="`"/>
@@ -1420,6 +1420,10 @@
             <when state="varia plus dasia" output="Ὣ"/>
             <when state="varia plus spili" output="Ὢ"/>
         </action>
+        <action id="β">
+            <when state="none" output="ϐ"/>
+            <when state="espace" output=" β"/>
+        </action>
         <action id="γ">
             <when state="none" output="γ"/>
         </action>
@@ -1486,6 +1490,7 @@
         <when state="dasia plus oxia" output="῞"/>
         <when state="dasia plus perispomeni" output="῟"/>
         <when state="dasia plus varia" output="῝"/>
+        <when state="espace" output=" "/>
         <when state="oxia" output="´"/>
         <when state="oxia plus dasia" output="῞"/>
         <when state="oxia plus dialetika" output="΅"/>
