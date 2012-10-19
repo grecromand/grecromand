@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 16:31 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 17:43 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -1065,6 +1065,7 @@
             <when state="none" next="dasia"/>
             <when state="State 1" next="perispomeni plus dasia"/>
             <when state="oxia" next="oxia plus dasia"/>
+            <when state="varia" next="varia plus dasia"/>
         </action>
         <action id="0">
             <when state="none" next="State 1"/>
@@ -1105,6 +1106,8 @@
             <when state="perispomeni plus psili" output="ἆ"/>
             <when state="psili" output="ἀ"/>
             <when state="varia" output="ὰ"/>
+            <when state="varia plus dasia" output="ἃ"/>
+            <when state="varia plus spili" output="ἂ"/>
         </action>
         <action id="7">
             <when state="none" output="ε"/>
@@ -1116,6 +1119,8 @@
             <when state="oxia plus spili" output="ἔ"/>
             <when state="psili" output="ἐ"/>
             <when state="varia" output="ὲ"/>
+            <when state="varia plus dasia" output="ἓ"/>
+            <when state="varia plus spili" output="ἒ"/>
         </action>
         <action id="8">
             <when state="none" output="ι"/>
@@ -1133,6 +1138,8 @@
             <when state="perispomeni plus psili" output="ἶ"/>
             <when state="psili" output="ἰ"/>
             <when state="varia" output="ὶ"/>
+            <when state="varia plus dasia" output="ἳ"/>
+            <when state="varia plus spili" output="ἲ"/>
         </action>
         <action id="9">
             <when state="none" output="ο"/>
@@ -1145,6 +1152,8 @@
             <when state="oxia plus spili" output="ὄ"/>
             <when state="psili" output="ὀ"/>
             <when state="varia" output="ὸ"/>
+            <when state="varia plus dasia" output="ὃ"/>
+            <when state="varia plus spili" output="ὂ"/>
         </action>
         <action id="10">
             <when state="none" output="υ"/>
@@ -1162,6 +1171,8 @@
             <when state="perispomeni plus psili" output="ὖ"/>
             <when state="psili" output="ὐ"/>
             <when state="varia" output="ὺ"/>
+            <when state="varia plus dasia" output="ὓ"/>
+            <when state="varia plus spili" output="ὒ"/>
         </action>
         <action id="11">
             <when state="none" output="Α"/>
@@ -1174,6 +1185,8 @@
             <when state="perispomeni plus dasia" output="Ἇ"/>
             <when state="perispomeni plus psili" output="Ἆ"/>
             <when state="psili" output="Ἀ"/>
+            <when state="varia plus dasia" output="Ἃ"/>
+            <when state="varia plus spili" output="Ἂ"/>
         </action>
         <action id="12">
             <when state="none" output="Ε"/>
@@ -1184,6 +1197,8 @@
             <when state="oxia plus dasia" output="Ἕ"/>
             <when state="oxia plus spili" output="Ἔ"/>
             <when state="psili" output="Ἐ"/>
+            <when state="varia plus dasia" output="Ἓ"/>
+            <when state="varia plus spili" output="Ἒ"/>
         </action>
         <action id="13">
             <when state="none" output="Ι"/>
@@ -1196,6 +1211,8 @@
             <when state="perispomeni plus dasia" output="Ἷ"/>
             <when state="perispomeni plus psili" output="Ἶ"/>
             <when state="psili" output="Ἰ"/>
+            <when state="varia plus dasia" output="Ἳ"/>
+            <when state="varia plus spili" output="Ἲ"/>
         </action>
         <action id="14">
             <when state="none" output="Ο"/>
@@ -1206,6 +1223,8 @@
             <when state="oxia plus dasia" output="Ὅ"/>
             <when state="oxia plus spili" output="Ὄ"/>
             <when state="psili" output="Ὀ"/>
+            <when state="varia plus dasia" output="Ὃ"/>
+            <when state="varia plus spili" output="Ὂ"/>
         </action>
         <action id="15">
             <when state="none" output="Υ"/>
@@ -1214,6 +1233,7 @@
             <when state="State 3" output="Ù"/>
             <when state="oxia plus dasia" output="Ὕ"/>
             <when state="perispomeni plus dasia" output="Ὗ"/>
+            <when state="varia plus dasia" output="Ὓ"/>
         </action>
         <action id="16">
             <when state="none" output="ψ"/>
@@ -1236,6 +1256,7 @@
             <when state="none" next="psili"/>
             <when state="State 1" next="perispomeni plus psili"/>
             <when state="oxia" next="oxia plus spili"/>
+            <when state="varia" next="varia plus spili"/>
         </action>
         <action id="è">
             <when state="none" next="varia"/>
@@ -1259,6 +1280,7 @@
             <when state="perispomeni plus dasia" output="Ἧ"/>
             <when state="perispomeni plus psili" output="Ἦ"/>
             <when state="psili" output="Ἠ"/>
+            <when state="varia plus spili" output="Ἢ"/>
         </action>
         <action id="Η 1">
             <when state="none" output="Η"/>
@@ -1268,6 +1290,8 @@
             <when state="perispomeni plus dasia" output="Ἧ"/>
             <when state="perispomeni plus psili" output="Ἦ"/>
             <when state="psili" output="Ἠ"/>
+            <when state="varia plus dasia" output="Ἣ"/>
+            <when state="varia plus spili" output="Ἢ"/>
         </action>
         <action id="Π">
             <when state="none" output="Π"/>
@@ -1291,6 +1315,8 @@
             <when state="perispomeni plus dasia" output="Ὧ"/>
             <when state="perispomeni plus psili" output="Ὦ"/>
             <when state="psili" output="Ὠ"/>
+            <when state="varia plus dasia" output="Ὣ"/>
+            <when state="varia plus spili" output="Ὢ"/>
         </action>
         <action id="Ω 1">
             <when state="none" output="Ω"/>
@@ -1300,6 +1326,8 @@
             <when state="perispomeni plus dasia" output="Ὧ"/>
             <when state="perispomeni plus psili" output="Ὦ"/>
             <when state="psili" output="Ὠ"/>
+            <when state="varia plus dasia" output="Ὣ"/>
+            <when state="varia plus spili" output="Ὢ"/>
         </action>
         <action id="γ">
             <when state="none" output="γ"/>
@@ -1314,6 +1342,8 @@
             <when state="perispomeni plus psili" output="ἦ"/>
             <when state="psili" output="ἠ"/>
             <when state="varia" output="ὴ"/>
+            <when state="varia plus dasia" output="ἣ"/>
+            <when state="varia plus spili" output="ἢ"/>
         </action>
         <action id="θ">
             <when state="none" output="θ"/>
@@ -1336,6 +1366,8 @@
             <when state="perispomeni plus psili" output="ὦ"/>
             <when state="psili" output="ὠ"/>
             <when state="varia" output="ὼ"/>
+            <when state="varia plus dasia" output="ὣ"/>
+            <when state="varia plus spili" output="ὢ"/>
         </action>
     </actions>
     <terminators>
@@ -1354,5 +1386,7 @@
         <when state="perispomeni plus psili" output="῏"/>
         <when state="psili" output="᾿"/>
         <when state="varia" output="`"/>
+        <when state="varia plus dasia" output="῝"/>
+        <when state="varia plus spili" output="῍"/>
     </terminators>
 </keyboard>
