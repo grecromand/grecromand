@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 17:55 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 18:03 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -69,7 +69,7 @@
             <key code="13" action="ω"/>
             <key code="14" action="7"/>
             <key code="15" action="ρ"/>
-            <key code="16" output="ζ"/>
+            <key code="16" action="ζ"/>
             <key code="17" output="τ"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
@@ -181,7 +181,7 @@
             <key code="13" action="Ω"/>
             <key code="14" action="12"/>
             <key code="15" action="Ρ 1"/>
-            <key code="16" output="Ζ"/>
+            <key code="16" action="Ζ"/>
             <key code="17" output="Τ"/>
             <key code="18" output="+"/>
             <key code="19" output="&#x0022;"/>
@@ -293,7 +293,7 @@
             <key code="13" action="Ω 1"/>
             <key code="14" action="12"/>
             <key code="15" action="Ρ"/>
-            <key code="16" output="Ζ"/>
+            <key code="16" action="Ζ 1"/>
             <key code="17" output="Τ"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
@@ -1069,6 +1069,7 @@
         </action>
         <action id="0">
             <when state="none" next="State 1"/>
+            <when state="dasia" next="dasia plus perispomeni"/>
             <when state="psili" next="psili plus perispomeni"/>
         </action>
         <action id="1">
@@ -1101,6 +1102,9 @@
             <when state="State 4" output="á"/>
             <when state="State 5" output="ã"/>
             <when state="dasia" output="ἁ"/>
+            <when state="dasia plus oxia" output="ἅ"/>
+            <when state="dasia plus perispomeni" output="Ἇ"/>
+            <when state="dasia plus varia" output="ἃ"/>
             <when state="oxia" output="ά"/>
             <when state="oxia plus dasia" output="ἅ"/>
             <when state="oxia plus spili" output="ἄ"/>
@@ -1119,6 +1123,8 @@
             <when state="State 3" output="è"/>
             <when state="State 4" output="é"/>
             <when state="dasia" output="ἑ"/>
+            <when state="dasia plus oxia" output="ἕ"/>
+            <when state="dasia plus varia" output="ἓ"/>
             <when state="oxia" output="έ"/>
             <when state="oxia plus dasia" output="ἕ"/>
             <when state="oxia plus spili" output="ἔ"/>
@@ -1136,6 +1142,9 @@
             <when state="State 3" output="ì"/>
             <when state="State 4" output="í"/>
             <when state="dasia" output="ἱ"/>
+            <when state="dasia plus oxia" output="ἵ"/>
+            <when state="dasia plus perispomeni" output="ἷ"/>
+            <when state="dasia plus varia" output="ἳ"/>
             <when state="oxia" output="ί"/>
             <when state="oxia plus dasia" output="ἵ"/>
             <when state="oxia plus dialetika" output="ΐ"/>
@@ -1158,6 +1167,8 @@
             <when state="State 4" output="ó"/>
             <when state="State 5" output="õ"/>
             <when state="dasia" output="ὁ"/>
+            <when state="dasia plus oxia" output="ὅ"/>
+            <when state="dasia plus varia" output="ὃ"/>
             <when state="oxia" output="ό"/>
             <when state="oxia plus dasia" output="ὅ"/>
             <when state="oxia plus spili" output="ὄ"/>
@@ -1175,6 +1186,9 @@
             <when state="State 3" output="ù"/>
             <when state="State 4" output="ú"/>
             <when state="dasia" output="ὑ"/>
+            <when state="dasia plus oxia" output="ὕ"/>
+            <when state="dasia plus perispomeni" output="ὗ"/>
+            <when state="dasia plus varia" output="ὓ"/>
             <when state="oxia" output="ύ"/>
             <when state="oxia plus dasia" output="ὕ"/>
             <when state="oxia plus dialetika" output="ΰ"/>
@@ -1197,6 +1211,9 @@
             <when state="State 3" output="À"/>
             <when state="State 5" output="Ã"/>
             <when state="dasia" output="Ἁ"/>
+            <when state="dasia plus oxia" output="Ἅ"/>
+            <when state="dasia plus perispomeni" output="Ἇ"/>
+            <when state="dasia plus varia" output="Ἃ"/>
             <when state="oxia plus dasia" output="Ἅ"/>
             <when state="oxia plus spili" output="Ἄ"/>
             <when state="perispomeni plus dasia" output="Ἇ"/>
@@ -1214,6 +1231,8 @@
             <when state="State 3" output="È"/>
             <when state="State 4" output="É"/>
             <when state="dasia" output="Ἑ"/>
+            <when state="dasia plus oxia" output="Ἕ"/>
+            <when state="dasia plus varia" output="Ἓ"/>
             <when state="oxia plus dasia" output="Ἕ"/>
             <when state="oxia plus spili" output="Ἔ"/>
             <when state="psili" output="Ἐ"/>
@@ -1228,6 +1247,9 @@
             <when state="State 2" output="Ϊ"/>
             <when state="State 3" output="Ì"/>
             <when state="dasia" output="Ἱ"/>
+            <when state="dasia plus oxia" output="Ἵ"/>
+            <when state="dasia plus perispomeni" output="Ἷ"/>
+            <when state="dasia plus varia" output="Ἳ"/>
             <when state="oxia plus dasia" output="Ἵ"/>
             <when state="oxia plus spili" output="Ἴ"/>
             <when state="perispomeni plus dasia" output="Ἷ"/>
@@ -1245,6 +1267,8 @@
             <when state="State 3" output="Ò"/>
             <when state="State 5" output="Õ"/>
             <when state="dasia" output="Ὁ"/>
+            <when state="dasia plus oxia" output="Ὅ"/>
+            <when state="dasia plus varia" output="Ὃ"/>
             <when state="oxia plus dasia" output="Ὅ"/>
             <when state="oxia plus spili" output="Ὄ"/>
             <when state="psili" output="Ὀ"/>
@@ -1258,6 +1282,9 @@
             <when state="State 1" output="Û"/>
             <when state="State 2" output="Ϋ"/>
             <when state="State 3" output="Ù"/>
+            <when state="dasia plus oxia" output="Ὕ"/>
+            <when state="dasia plus perispomeni" output="Ὗ"/>
+            <when state="dasia plus varia" output="Ὓ"/>
             <when state="oxia plus dasia" output="Ὕ"/>
             <when state="perispomeni plus dasia" output="Ὗ"/>
             <when state="varia plus dasia" output="Ὓ"/>
@@ -1287,10 +1314,12 @@
         </action>
         <action id="è">
             <when state="none" next="varia"/>
+            <when state="dasia" next="dasia plus varia"/>
             <when state="psili" next="psili plus varia"/>
         </action>
         <action id="é">
             <when state="none" next="oxia"/>
+            <when state="dasia" next="dasia plus oxia"/>
             <when state="psili" next="psili plus oxia"/>
         </action>
         <action id="Β">
@@ -1304,9 +1333,18 @@
             <when state="none" output="Γ"/>
             <when state="dasia" output="Ὑ"/>
         </action>
+        <action id="Ζ">
+            <when state="none" output="Ζ"/>
+        </action>
+        <action id="Ζ 1">
+            <when state="none" output="Ζ"/>
+        </action>
         <action id="Η">
             <when state="none" output="Η"/>
             <when state="dasia" output="Ἡ"/>
+            <when state="dasia plus oxia" output="Ἥ"/>
+            <when state="dasia plus perispomeni" output="Ἧ"/>
+            <when state="dasia plus varia" output="Ἣ"/>
             <when state="oxia plus dasia" output="Ἥ"/>
             <when state="oxia plus spili" output="Ἤ"/>
             <when state="perispomeni plus dasia" output="Ἧ"/>
@@ -1320,6 +1358,9 @@
         <action id="Η 1">
             <when state="none" output="Η"/>
             <when state="dasia" output="Ἡ"/>
+            <when state="dasia plus oxia" output="Ἥ"/>
+            <when state="dasia plus perispomeni" output="Ἧ"/>
+            <when state="dasia plus varia" output="Ἣ"/>
             <when state="oxia plus dasia" output="Ἥ"/>
             <when state="oxia plus spili" output="Ἤ"/>
             <when state="perispomeni plus dasia" output="Ἧ"/>
@@ -1348,6 +1389,9 @@
         <action id="Ω">
             <when state="none" output="Ω"/>
             <when state="dasia" output="Ὡ"/>
+            <when state="dasia plus oxia" output="Ὥ"/>
+            <when state="dasia plus perispomeni" output="Ὧ"/>
+            <when state="dasia plus varia" output="Ὣ"/>
             <when state="oxia plus dasia" output="Ὥ"/>
             <when state="oxia plus spili" output="Ὤ"/>
             <when state="perispomeni plus dasia" output="Ὧ"/>
@@ -1362,6 +1406,9 @@
         <action id="Ω 1">
             <when state="none" output="Ω"/>
             <when state="dasia" output="Ὡ"/>
+            <when state="dasia plus oxia" output="Ὥ"/>
+            <when state="dasia plus perispomeni" output="Ὧ"/>
+            <when state="dasia plus varia" output="Ὣ"/>
             <when state="oxia plus dasia" output="Ὥ"/>
             <when state="oxia plus spili" output="Ὤ"/>
             <when state="perispomeni plus dasia" output="Ὧ"/>
@@ -1376,9 +1423,15 @@
         <action id="γ">
             <when state="none" output="γ"/>
         </action>
+        <action id="ζ">
+            <when state="none" output="ζ"/>
+        </action>
         <action id="η">
             <when state="none" output="η"/>
             <when state="State 1" output="ῆ"/>
+            <when state="dasia plus oxia" output="ἥ"/>
+            <when state="dasia plus perispomeni" output="ἧ"/>
+            <when state="dasia plus varia" output="ἣ"/>
             <when state="oxia" output="ή"/>
             <when state="oxia plus dasia" output="ἥ"/>
             <when state="oxia plus spili" output="ἤ"/>
@@ -1406,6 +1459,9 @@
             <when state="none" output="ω"/>
             <when state="State 1" output="ῶ"/>
             <when state="dasia" output="ὡ"/>
+            <when state="dasia plus oxia" output="ὥ"/>
+            <when state="dasia plus perispomeni" output="ὧ"/>
+            <when state="dasia plus varia" output="ὣ"/>
             <when state="oxia" output="ώ"/>
             <when state="oxia plus dasia" output="ὥ"/>
             <when state="oxia plus spili" output="ὤ"/>
@@ -1427,6 +1483,9 @@
         <when state="State 4" output="´"/>
         <when state="State 5" output="~"/>
         <when state="dasia" output="῾"/>
+        <when state="dasia plus oxia" output="῞"/>
+        <when state="dasia plus perispomeni" output="῟"/>
+        <when state="dasia plus varia" output="῝"/>
         <when state="oxia" output="´"/>
         <when state="oxia plus dasia" output="῞"/>
         <when state="oxia plus dialetika" output="΅"/>
