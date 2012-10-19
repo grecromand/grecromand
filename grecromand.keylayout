@@ -1063,7 +1063,7 @@
     <actions>
         <action id="$">
             <when state="none" next="dasia"/>
-            <when state="State 1" next="perispomeni dasia"/>
+            <when state="State 1" next="perispomeni plus dasia"/>
             <when state="oxia" next="oxia plus dasia"/>
         </action>
         <action id="0">
@@ -1101,7 +1101,7 @@
             <when state="oxia" output="ά"/>
             <when state="oxia plus dasia" output="ἅ"/>
             <when state="oxia plus spili" output="ἄ"/>
-            <when state="perispomeni dasia" output="ἇ"/>
+            <when state="perispomeni plus dasia" output="ἇ"/>
             <when state="peristomene psili" output="ἆ"/>
             <when state="psili" output="ἀ"/>
             <when state="varia" output="ὰ"/>
@@ -1128,7 +1128,7 @@
             <when state="oxia plus dasia" output="ἵ"/>
             <when state="oxia plus dialetika" output="ΐ"/>
             <when state="oxia plus spili" output="ἴ"/>
-            <when state="perispomeni dasia" output="ἷ"/>
+            <when state="perispomeni plus dasia" output="ἷ"/>
             <when state="perispomeni plus dialytika" output="ῗ"/>
             <when state="peristomene psili" output="ἶ"/>
             <when state="psili" output="ἰ"/>
@@ -1157,7 +1157,7 @@
             <when state="oxia plus dasia" output="ὕ"/>
             <when state="oxia plus dialetika" output="ΰ"/>
             <when state="oxia plus spili" output="ὔ"/>
-            <when state="perispomeni dasia" output="ὗ"/>
+            <when state="perispomeni plus dasia" output="ὗ"/>
             <when state="perispomeni plus dialytika" output="ῧ"/>
             <when state="peristomene psili" output="ὖ"/>
             <when state="psili" output="ὐ"/>
@@ -1171,7 +1171,7 @@
             <when state="dasia" output="Ἁ"/>
             <when state="oxia plus dasia" output="Ἅ"/>
             <when state="oxia plus spili" output="Ἄ"/>
-            <when state="perispomeni dasia" output="Ἇ"/>
+            <when state="perispomeni plus dasia" output="Ἇ"/>
             <when state="peristomene psili" output="Ἆ"/>
             <when state="psili" output="Ἀ"/>
         </action>
@@ -1193,7 +1193,7 @@
             <when state="dasia" output="Ἱ"/>
             <when state="oxia plus dasia" output="Ἵ"/>
             <when state="oxia plus spili" output="Ἴ"/>
-            <when state="perispomeni dasia" output="Ἷ"/>
+            <when state="perispomeni plus dasia" output="Ἷ"/>
             <when state="peristomene psili" output="Ἶ"/>
             <when state="psili" output="Ἰ"/>
         </action>
@@ -1213,7 +1213,7 @@
             <when state="State 2" output="Ϋ"/>
             <when state="State 3" output="Ù"/>
             <when state="oxia plus dasia" output="Ὕ"/>
-            <when state="perispomeni dasia" output="Ὗ"/>
+            <when state="perispomeni plus dasia" output="Ὗ"/>
         </action>
         <action id="16">
             <when state="none" output="ψ"/>
@@ -1256,7 +1256,7 @@
             <when state="dasia" output="Ἡ"/>
             <when state="oxia plus dasia" output="Ἥ"/>
             <when state="oxia plus spili" output="Ἤ"/>
-            <when state="perispomeni dasia" output="Ἧ"/>
+            <when state="perispomeni plus dasia" output="Ἧ"/>
             <when state="peristomene psili" output="Ἦ"/>
             <when state="psili" output="Ἠ"/>
         </action>
@@ -1265,7 +1265,7 @@
             <when state="dasia" output="Ἡ"/>
             <when state="oxia plus dasia" output="Ἥ"/>
             <when state="oxia plus spili" output="Ἤ"/>
-            <when state="perispomeni dasia" output="Ἧ"/>
+            <when state="perispomeni plus dasia" output="Ἧ"/>
             <when state="peristomene psili" output="Ἦ"/>
             <when state="psili" output="Ἠ"/>
         </action>
@@ -1288,7 +1288,7 @@
             <when state="dasia" output="Ὡ"/>
             <when state="oxia plus dasia" output="Ὥ"/>
             <when state="oxia plus spili" output="Ὤ"/>
-            <when state="perispomeni dasia" output="Ὧ"/>
+            <when state="perispomeni plus dasia" output="Ὧ"/>
             <when state="peristomene psili" output="Ὦ"/>
             <when state="psili" output="Ὠ"/>
         </action>
@@ -1297,7 +1297,7 @@
             <when state="dasia" output="Ὡ"/>
             <when state="oxia plus dasia" output="Ὥ"/>
             <when state="oxia plus spili" output="Ὤ"/>
-            <when state="perispomeni dasia" output="Ὧ"/>
+            <when state="perispomeni plus dasia" output="Ὧ"/>
             <when state="peristomene psili" output="Ὦ"/>
             <when state="psili" output="Ὠ"/>
         </action>
@@ -1310,7 +1310,7 @@
             <when state="oxia" output="ή"/>
             <when state="oxia plus dasia" output="ἥ"/>
             <when state="oxia plus spili" output="ἤ"/>
-            <when state="perispomeni dasia" output="ἧ"/>
+            <when state="perispomeni plus dasia" output="ἧ"/>
             <when state="peristomene psili" output="ἦ"/>
             <when state="psili" output="ἠ"/>
             <when state="varia" output="ὴ"/>
@@ -1332,7 +1332,7 @@
             <when state="oxia" output="ώ"/>
             <when state="oxia plus dasia" output="ὥ"/>
             <when state="oxia plus spili" output="ὤ"/>
-            <when state="perispomeni dasia" output="ὧ"/>
+            <when state="perispomeni plus dasia" output="ὧ"/>
             <when state="peristomene psili" output="ὦ"/>
             <when state="psili" output="ὠ"/>
             <when state="varia" output="ὼ"/>
@@ -1349,7 +1349,7 @@
         <when state="oxia plus dasia" output="῞"/>
         <when state="oxia plus dialetika" output="΅"/>
         <when state="oxia plus spili" output="῎"/>
-        <when state="perispomeni dasia" output="῟"/>
+        <when state="perispomeni plus dasia" output="῟"/>
         <when state="perispomeni plus dialytika" output="῁"/>
         <when state="peristomene psili" output="῏"/>
         <when state="psili" output="᾿"/>
