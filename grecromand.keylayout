@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 15:31 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 15:39 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -58,7 +58,7 @@
             <key code="2" output="δ"/>
             <key code="3" output="φ"/>
             <key code="4" action="η"/>
-            <key code="5" output="γ"/>
+            <key code="5" action="γ"/>
             <key code="6" action="16"/>
             <key code="7" output="ξ"/>
             <key code="8" output="χ"/>
@@ -68,7 +68,7 @@
             <key code="12" action="θ"/>
             <key code="13" action="ω"/>
             <key code="14" action="7"/>
-            <key code="15" output="ρ"/>
+            <key code="15" action="ρ"/>
             <key code="16" output="ζ"/>
             <key code="17" output="τ"/>
             <key code="18" output="1"/>
@@ -95,7 +95,7 @@
             <key code="39" action="à"/>
             <key code="40" output="κ"/>
             <key code="41" action="é"/>
-            <key code="42" output="$"/>
+            <key code="42" action="$"/>
             <key code="43" output=","/>
             <key code="44" output="-"/>
             <key code="45" action="19"/>
@@ -170,7 +170,7 @@
             <key code="2" output="Δ"/>
             <key code="3" output="Φ"/>
             <key code="4" action="Η"/>
-            <key code="5" output="Γ"/>
+            <key code="5" action="Γ 1"/>
             <key code="6" action="17"/>
             <key code="7" output="Ξ"/>
             <key code="8" output="Χ"/>
@@ -180,7 +180,7 @@
             <key code="12" output="Θ"/>
             <key code="13" action="Ω"/>
             <key code="14" action="12"/>
-            <key code="15" output="Ρ"/>
+            <key code="15" action="Ρ 1"/>
             <key code="16" output="Ζ"/>
             <key code="17" output="Τ"/>
             <key code="18" output="+"/>
@@ -282,7 +282,7 @@
             <key code="2" output="Δ"/>
             <key code="3" output="Φ"/>
             <key code="4" action="Η 1"/>
-            <key code="5" output="Γ"/>
+            <key code="5" action="Γ"/>
             <key code="6" action="17"/>
             <key code="7" output="Ξ"/>
             <key code="8" output="Ψ"/>
@@ -292,7 +292,7 @@
             <key code="12" output="Θ"/>
             <key code="13" action="Ω 1"/>
             <key code="14" action="12"/>
-            <key code="15" output="Ρ"/>
+            <key code="15" action="Ρ"/>
             <key code="16" output="Ζ"/>
             <key code="17" output="Τ"/>
             <key code="18" output="1"/>
@@ -1061,6 +1061,9 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id="$">
+            <when state="none" next="dasia"/>
+        </action>
         <action id="0">
             <when state="none" next="State 1"/>
         </action>
@@ -1091,6 +1094,7 @@
             <when state="State 3" output="à"/>
             <when state="State 4" output="á"/>
             <when state="State 5" output="ã"/>
+            <when state="dasia" output="ἁ"/>
             <when state="oxia" output="ά"/>
             <when state="psili" output="ἀ"/>
             <when state="varia" output="ὰ"/>
@@ -1100,6 +1104,7 @@
             <when state="State 2" output="ë"/>
             <when state="State 3" output="è"/>
             <when state="State 4" output="é"/>
+            <when state="dasia" output="ἑ"/>
             <when state="oxia" output="έ"/>
             <when state="psili" output="ἐ"/>
             <when state="varia" output="ὲ"/>
@@ -1110,6 +1115,7 @@
             <when state="State 2" output="ï"/>
             <when state="State 3" output="ì"/>
             <when state="State 4" output="í"/>
+            <when state="dasia" output="ἱ"/>
             <when state="oxia" output="ί"/>
             <when state="psili" output="ἰ"/>
             <when state="varia" output="ὶ"/>
@@ -1120,6 +1126,7 @@
             <when state="State 3" output="ò"/>
             <when state="State 4" output="ó"/>
             <when state="State 5" output="õ"/>
+            <when state="dasia" output="ὁ"/>
             <when state="oxia" output="ό"/>
             <when state="psili" output="ὀ"/>
             <when state="varia" output="ὸ"/>
@@ -1130,6 +1137,7 @@
             <when state="State 2" output="ü"/>
             <when state="State 3" output="ù"/>
             <when state="State 4" output="ú"/>
+            <when state="dasia" output="ὑ"/>
             <when state="oxia" output="ύ"/>
             <when state="psili" output="ὐ"/>
             <when state="varia" output="ὺ"/>
@@ -1140,6 +1148,7 @@
             <when state="State 2" output="Ä"/>
             <when state="State 3" output="À"/>
             <when state="State 5" output="Ã"/>
+            <when state="dasia" output="Ἁ"/>
             <when state="psili" output="Ἀ"/>
         </action>
         <action id="12">
@@ -1148,6 +1157,7 @@
             <when state="State 2" output="Ë"/>
             <when state="State 3" output="È"/>
             <when state="State 4" output="É"/>
+            <when state="dasia" output="Ἑ"/>
             <when state="psili" output="Ἐ"/>
         </action>
         <action id="13">
@@ -1155,6 +1165,7 @@
             <when state="State 1" output="Î"/>
             <when state="State 2" output="Ï"/>
             <when state="State 3" output="Ì"/>
+            <when state="dasia" output="Ἱ"/>
             <when state="psili" output="Ἰ"/>
         </action>
         <action id="14">
@@ -1163,6 +1174,7 @@
             <when state="State 2" output="Ö"/>
             <when state="State 3" output="Ò"/>
             <when state="State 5" output="Õ"/>
+            <when state="dasia" output="Ὁ"/>
             <when state="psili" output="Ὀ"/>
         </action>
         <action id="15">
@@ -1199,21 +1211,44 @@
         <action id="é">
             <when state="none" next="oxia"/>
         </action>
+        <action id="Γ">
+            <when state="none" output="Γ"/>
+            <when state="dasia" output="Ὑ"/>
+        </action>
+        <action id="Γ 1">
+            <when state="none" output="Γ"/>
+            <when state="dasia" output="Ὑ"/>
+        </action>
         <action id="Η">
             <when state="none" output="Η"/>
+            <when state="dasia" output="Ἡ"/>
             <when state="psili" output="Ἠ"/>
         </action>
         <action id="Η 1">
             <when state="none" output="Η"/>
+            <when state="dasia" output="Ἡ"/>
             <when state="psili" output="Ἠ"/>
+        </action>
+        <action id="Ρ">
+            <when state="none" output="Ρ"/>
+            <when state="dasia" output="Ῥ"/>
+        </action>
+        <action id="Ρ 1">
+            <when state="none" output="Ρ"/>
+            <when state="dasia" output="Ῥ"/>
         </action>
         <action id="Ω">
             <when state="none" output="Ω"/>
+            <when state="dasia" output="Ὡ"/>
             <when state="psili" output="Ὠ"/>
         </action>
         <action id="Ω 1">
             <when state="none" output="Ω"/>
+            <when state="dasia" output="Ὡ"/>
             <when state="psili" output="Ὠ"/>
+        </action>
+        <action id="γ">
+            <when state="none" output="γ"/>
         </action>
         <action id="η">
             <when state="none" output="η"/>
@@ -1225,9 +1260,14 @@
         <action id="θ">
             <when state="none" output="θ"/>
         </action>
+        <action id="ρ">
+            <when state="none" output="ρ"/>
+            <when state="dasia" output="ῥ"/>
+        </action>
         <action id="ω">
             <when state="none" output="ω"/>
             <when state="State 1" output="ῶ"/>
+            <when state="dasia" output="ὡ"/>
             <when state="oxia" output="ώ"/>
             <when state="psili" output="ὠ"/>
             <when state="varia" output="ὼ"/>
@@ -1239,6 +1279,7 @@
         <when state="State 3" output="`"/>
         <when state="State 4" output="´"/>
         <when state="State 5" output="~"/>
+        <when state="dasia" output="῾"/>
         <when state="oxia" output="´"/>
         <when state="psili" output="᾿"/>
         <when state="varia" output="`"/>
