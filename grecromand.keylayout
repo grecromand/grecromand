@@ -54,7 +54,7 @@
     <keyMapSet id="138">
         <keyMap index="0">
             <key code="0" action="6"/>
-            <key code="1" output="σ"/>
+            <key code="1" action="σ"/>
             <key code="2" output="δ"/>
             <key code="3" output="φ"/>
             <key code="4" action="η"/>
@@ -1094,6 +1094,7 @@
             <when state="State 3" output="`"/>
             <when state="State 4" output="´"/>
             <when state="State 5" output="~"/>
+            <when state="sigma" output="ς "/>
         </action>
         <action id="6">
             <when state="none" output="α"/>
@@ -1459,6 +1460,9 @@
             <when state="none" output="ρ"/>
             <when state="dasia" output="ῥ"/>
         </action>
+        <action id="σ">
+            <when state="none" next="sigma"/>
+        </action>
         <action id="ω">
             <when state="none" output="ω"/>
             <when state="State 1" output="ῶ"/>
@@ -1503,6 +1507,7 @@
         <when state="psili plus oxia" output="῎"/>
         <when state="psili plus perispomeni" output="῏"/>
         <when state="psili plus varia" output="῍"/>
+        <when state="sigma" output="σ"/>
         <when state="varia" output="`"/>
         <when state="varia plus dasia" output="῝"/>
         <when state="varia plus spili" output="῍"/>
