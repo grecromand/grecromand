@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 15:07 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 15:16 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -94,7 +94,7 @@
             <key code="38" output="ς"/>
             <key code="39" output="à"/>
             <key code="40" output="κ"/>
-            <key code="41" output="é"/>
+            <key code="41" action="é"/>
             <key code="42" output="$"/>
             <key code="43" output=","/>
             <key code="44" output="-"/>
@@ -1091,12 +1091,14 @@
             <when state="State 3" output="à"/>
             <when state="State 4" output="á"/>
             <when state="State 5" output="ã"/>
+            <when state="oxia" output="ά"/>
         </action>
         <action id="7">
             <when state="none" output="ε"/>
             <when state="State 2" output="ë"/>
             <when state="State 3" output="è"/>
             <when state="State 4" output="é"/>
+            <when state="oxia" output="έ"/>
         </action>
         <action id="8">
             <when state="none" output="ι"/>
@@ -1104,6 +1106,7 @@
             <when state="State 2" output="ï"/>
             <when state="State 3" output="ì"/>
             <when state="State 4" output="í"/>
+            <when state="oxia" output="ί"/>
         </action>
         <action id="9">
             <when state="none" output="ο"/>
@@ -1111,6 +1114,7 @@
             <when state="State 3" output="ò"/>
             <when state="State 4" output="ó"/>
             <when state="State 5" output="õ"/>
+            <when state="oxia" output="ό"/>
         </action>
         <action id="10">
             <when state="none" output="υ"/>
@@ -1118,6 +1122,7 @@
             <when state="State 2" output="ü"/>
             <when state="State 3" output="ù"/>
             <when state="State 4" output="ú"/>
+            <when state="oxia" output="ύ"/>
         </action>
         <action id="11">
             <when state="none" output="Α"/>
@@ -1171,9 +1176,13 @@
         <action id="¡">
             <when state="none" output="ͅ"/>
         </action>
+        <action id="é">
+            <when state="none" next="oxia"/>
+        </action>
         <action id="η">
             <when state="none" output="η"/>
             <when state="State 1" output="ῆ"/>
+            <when state="oxia" output="ή"/>
         </action>
         <action id="θ">
             <when state="none" output="θ"/>
@@ -1181,6 +1190,7 @@
         <action id="ω">
             <when state="none" output="ω"/>
             <when state="State 1" output="ῶ"/>
+            <when state="oxia" output="ώ"/>
         </action>
     </actions>
     <terminators>
@@ -1189,5 +1199,6 @@
         <when state="State 3" output="`"/>
         <when state="State 4" output="´"/>
         <when state="State 5" output="~"/>
+        <when state="oxia" output="´"/>
     </terminators>
 </keyboard>
