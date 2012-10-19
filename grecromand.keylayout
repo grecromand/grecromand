@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 17:43 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 17:46 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -1074,6 +1074,7 @@
             <when state="none" next="State 2"/>
             <when state="State 1" next="perispomeni plus dialytika"/>
             <when state="oxia" next="oxia plus dialetika"/>
+            <when state="varia" next="oxia plus dialetyka"/>
         </action>
         <action id="2">
             <when state="none" next="State 3"/>
@@ -1132,6 +1133,7 @@
             <when state="oxia" output="ί"/>
             <when state="oxia plus dasia" output="ἵ"/>
             <when state="oxia plus dialetika" output="ΐ"/>
+            <when state="oxia plus dialetyka" output="ΐ"/>
             <when state="oxia plus spili" output="ἴ"/>
             <when state="perispomeni plus dasia" output="ἷ"/>
             <when state="perispomeni plus dialytika" output="ῗ"/>
@@ -1165,6 +1167,7 @@
             <when state="oxia" output="ύ"/>
             <when state="oxia plus dasia" output="ὕ"/>
             <when state="oxia plus dialetika" output="ΰ"/>
+            <when state="oxia plus dialetyka" output="ΰ"/>
             <when state="oxia plus spili" output="ὔ"/>
             <when state="perispomeni plus dasia" output="ὗ"/>
             <when state="perispomeni plus dialytika" output="ῧ"/>
@@ -1380,6 +1383,7 @@
         <when state="oxia" output="´"/>
         <when state="oxia plus dasia" output="῞"/>
         <when state="oxia plus dialetika" output="΅"/>
+        <when state="oxia plus dialetyka" output="΅"/>
         <when state="oxia plus spili" output="῎"/>
         <when state="perispomeni plus dasia" output="῟"/>
         <when state="perispomeni plus dialytika" output="῁"/>
