@@ -1,3 +1,3 @@
-all:grecroman.keylayout
-	rm ~/Library/Keyboard\ Layouts/grecroman.keylayout
-	cp grecroman.keylayout ~/Library/Keyboard\ Layouts/
+all:grecromand.keylayout
+	rm ~/Library/Keyboard\ Layouts/grecromand.keylayout
+	cp grecromand.keylayout ~/Library/Keyboard\ Layouts/
