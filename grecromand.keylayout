@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 18:17 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-24 at 19:16 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="2">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -96,11 +96,11 @@
             <key code="40" output="κ"/>
             <key code="41" action="é"/>
             <key code="42" action="$"/>
-            <key code="43" output=","/>
+            <key code="43" action=","/>
             <key code="44" output="-"/>
             <key code="45" action="19"/>
             <key code="46" output="μ"/>
-            <key code="47" output="."/>
+            <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="&#x003C;"/>
@@ -208,11 +208,11 @@
             <key code="40" output="Κ"/>
             <key code="41" output="ö"/>
             <key code="42" output="£"/>
-            <key code="43" output=";"/>
+            <key code="43" action=";"/>
             <key code="44" output="_"/>
             <key code="45" action="18"/>
             <key code="46" output="Μ"/>
-            <key code="47" output="˙"/>
+            <key code="47" action="˙"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="&#x003E;"/>
@@ -1067,6 +1067,14 @@
             <when state="oxia" next="oxia plus dasia"/>
             <when state="varia" next="varia plus dasia"/>
         </action>
+        <action id=",">
+            <when state="none" output=","/>
+            <when state="sigma" output="ς,"/>
+        </action>
+        <action id=".">
+            <when state="none" output="."/>
+            <when state="sigma" output="ς."/>
+        </action>
         <action id="0">
             <when state="none" next="State 1"/>
             <when state="dasia" next="dasia plus perispomeni"/>
@@ -1086,6 +1094,7 @@
         </action>
         <action id="4">
             <when state="none" next="State 5"/>
+            <when state="sigma" output="ς~"/>
         </action>
         <action id="5">
             <when state="none" output=" "/>
@@ -1322,6 +1331,14 @@
             <when state="none" next="oxia"/>
             <when state="dasia" next="dasia plus oxia"/>
             <when state="psili" next="psili plus oxia"/>
+        </action>
+        <action id="˙">
+            <when state="none" output="˙"/>
+            <when state="sigma" output="ς˙"/>
+        </action>
+        <action id=";">
+            <when state="none" output=";"/>
+            <when state="sigma" output="ς;"/>
         </action>
         <action id="Β">
             <when state="none" output="Β"/>
