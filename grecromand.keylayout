@@ -426,7 +426,7 @@
             <key code="34" action="¡"/>
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="¬"/>
+            <key code="37" output="|"/>
             <key code="38" output="º"/>
             <key code="39" output="æ"/>
             <key code="40" output="∆"/>
@@ -526,10 +526,10 @@
             <key code="22" output="]"/>
             <key code="23" output="["/>
             <key code="24" output="^"/>
-            <key code="25" output="Ô"/>
-            <key code="26" output="\"/>
+            <key code="25" output="]"/>
+            <key code="26" output="‖"/>
             <key code="27" output=""/>
-            <key code="28" output="Ò"/>
+            <key code="28" output="["/>
             <key code="29" output="Ú"/>
             <key code="30" output="’"/>
             <key code="31" output="Ø"/>
@@ -538,7 +538,7 @@
             <key code="34" output="ı"/>
             <key code="35" output="∏"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="ˆ"/>
+            <key code="37" output="‖"/>
             <key code="38" output="˜"/>
             <key code="39" output="Æ"/>
             <key code="40" output="¯"/>
@@ -750,10 +750,10 @@
             <key code="22" output="6"/>
             <key code="23" output="5"/>
             <key code="24" output="="/>
-            <key code="25" output="9"/>
+            <key code="25" output="⟧"/>
             <key code="26" output="7"/>
             <key code="27" output="&#x001F;"/>
-            <key code="28" output="8"/>
+            <key code="28" output="⟦"/>
             <key code="29" output="0"/>
             <key code="30" output="&#x001D;"/>
             <key code="31" output="&#x000F;"/>
