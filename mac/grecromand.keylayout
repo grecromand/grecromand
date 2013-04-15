@@ -89,7 +89,7 @@
             <key code="33" action="è"/>
             <key code="34" action="8"/>
             <key code="35" action="π"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" action="&#x000D;"/>
             <key code="37" output="λ"/>
             <key code="38" output="ς"/>
             <key code="39" action="à"/>
@@ -1066,6 +1066,10 @@
             <when state="State 1" next="perispomeni plus dasia"/>
             <when state="oxia" next="oxia plus dasia"/>
             <when state="varia" next="varia plus dasia"/>
+        </action>
+        <action id="&#x000D;">
+            <when state="none" output="&#x000D;"/>
+            <when state="sigma" output="ς&#x000D;"/>
         </action>
         <action id=",">
             <when state="none" output=","/>
