@@ -1433,6 +1433,7 @@
         <action id="η">
             <when state="none" output="η"/>
             <when state="State 1" output="ῆ"/>
+            <when state="dasia" output="ἡ"/>
             <when state="dasia plus oxia" output="ἥ"/>
             <when state="dasia plus perispomeni" output="ἧ"/>
             <when state="dasia plus varia" output="ἣ"/>
