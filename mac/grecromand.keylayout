@@ -80,7 +80,7 @@
             <key code="24" action="0"/>
             <key code="25" output="9"/>
             <key code="26" output="7"/>
-            <key code="27" output="&#x0027;"/>
+            <key code="27" output="’"/>
             <key code="28" output="8"/>
             <key code="29" output="0"/>
             <key code="30" action="1"/>
