@@ -1407,6 +1407,7 @@
         <action id="Ρ 1">
             <when state="none" output="Ρ"/>
             <when state="dasia" output="Ῥ"/>
+            <when state="psili" output="Ῥ"/>
         </action>
         <action id="Ω">
             <when state="none" output="Ω"/>
