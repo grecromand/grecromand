@@ -1296,6 +1296,7 @@
             <when state="State 1" output="Û"/>
             <when state="State 2" output="Ϋ"/>
             <when state="State 3" output="Ù"/>
+            <when state="dasia" output="Ὑ"/>
             <when state="dasia plus oxia" output="Ὕ"/>
             <when state="dasia plus perispomeni" output="Ὗ"/>
             <when state="dasia plus varia" output="Ὓ"/>
@@ -1357,7 +1358,6 @@
         </action>
         <action id="Γ 1">
             <when state="none" output="Γ"/>
-            <when state="dasia" output="Ὑ"/>
         </action>
         <action id="Ζ">
             <when state="none" output="Ζ"/>
