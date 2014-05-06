@@ -4,8 +4,8 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 18:22 (UTC+02:00)-->
-<keyboard group="126" id="-27464" name="Grec Romand" maxout="2">
+<!--Last edited by Ukelele version 2.2.3 on 2014-05-06 at 17:20 (UTC+02:00)-->
+<keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
     </layouts>
@@ -1076,7 +1076,7 @@
             <when state="none" next="State 2"/>
             <when state="State 1" next="perispomeni plus dialytika"/>
             <when state="oxia" next="oxia plus dialetika"/>
-            <when state="varia" next="oxia plus dialetyka"/>
+            <when state="varia" next="varia plus dalytika"/>
         </action>
         <action id="2">
             <when state="none" next="State 3"/>
@@ -1148,7 +1148,6 @@
             <when state="oxia" output="ί"/>
             <when state="oxia plus dasia" output="ἵ"/>
             <when state="oxia plus dialetika" output="ΐ"/>
-            <when state="oxia plus dialetyka" output="ΐ"/>
             <when state="oxia plus spili" output="ἴ"/>
             <when state="perispomeni plus dasia" output="ἷ"/>
             <when state="perispomeni plus dialytika" output="ῗ"/>
@@ -1158,6 +1157,7 @@
             <when state="psili plus perispomeni" output="ἶ"/>
             <when state="psili plus varia" output="ἲ"/>
             <when state="varia" output="ὶ"/>
+            <when state="varia plus dalytika" output="ῒ"/>
             <when state="varia plus dasia" output="ἳ"/>
             <when state="varia plus spili" output="ἲ"/>
         </action>
@@ -1192,7 +1192,6 @@
             <when state="oxia" output="ύ"/>
             <when state="oxia plus dasia" output="ὕ"/>
             <when state="oxia plus dialetika" output="ΰ"/>
-            <when state="oxia plus dialetyka" output="ΰ"/>
             <when state="oxia plus spili" output="ὔ"/>
             <when state="perispomeni plus dasia" output="ὗ"/>
             <when state="perispomeni plus dialytika" output="ῧ"/>
@@ -1202,6 +1201,7 @@
             <when state="psili plus perispomeni" output="ὖ"/>
             <when state="psili plus varia" output="ὒ"/>
             <when state="varia" output="ὺ"/>
+            <when state="varia plus dalytika" output="ῢ"/>
             <when state="varia plus dasia" output="ὓ"/>
             <when state="varia plus spili" output="ὒ"/>
         </action>
@@ -1497,7 +1497,6 @@
         <when state="oxia" output="´"/>
         <when state="oxia plus dasia" output="῞"/>
         <when state="oxia plus dialetika" output="΅"/>
-        <when state="oxia plus dialetyka" output="΅"/>
         <when state="oxia plus spili" output="῎"/>
         <when state="perispomeni plus dasia" output="῟"/>
         <when state="perispomeni plus dialytika" output="῁"/>
@@ -1507,6 +1506,7 @@
         <when state="psili plus perispomeni" output="῏"/>
         <when state="psili plus varia" output="῍"/>
         <when state="varia" output="`"/>
+        <when state="varia plus dalytika" output="῭"/>
         <when state="varia plus dasia" output="῝"/>
         <when state="varia plus spili" output="῍"/>
     </terminators>
