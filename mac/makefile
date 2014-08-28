@@ -1,3 +1,3 @@
 all:grecromand.keylayout
-	rm -f /Library/Keyboard\ Layouts/grecromand.keylayout
-	cp grecromand.keylayout /Library/Keyboard\ Layouts/
+	sudo rm -f /Library/Keyboard\ Layouts/grecromand.keylayout
+	sudo cp grecromand.keylayout /Library/Keyboard\ Layouts/
