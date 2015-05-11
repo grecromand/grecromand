@@ -4,7 +4,7 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.8 on 2014-09-24 at 14:01 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-05-11 at 10:05 (UTC+02:00)-->
 <keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -212,7 +212,7 @@
             <key code="44" output="_"/>
             <key code="45" action="18"/>
             <key code="46" output="Μ"/>
-            <key code="47" action="˙"/>
+            <key code="47" output="·"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="&#x003E;"/>
