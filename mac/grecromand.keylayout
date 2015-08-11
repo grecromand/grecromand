@@ -4,8 +4,8 @@
 <!--Christophe Guignard - Maïeul Rouquette - 2012 - IRSB (Unil)-->
 <!---->
 <!---->
-<!--Last edited by Ukelele version 2.2.8 on 2015-05-11 at 10:05 (UTC+02:00)-->
-<keyboard group="126" id="-27464" name="Grec Romand" maxout="1">
+<!--Last edited by Ukelele version 2.2.8 on 2015-08-11 at 16:21 (UTC+02:00)-->
+<keyboard group="126" id="-27464" name="Grec Romand" maxout="2">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
     </layouts>
@@ -1385,7 +1385,7 @@
         <action id="Ρ 1">
             <when state="none" output="Ρ"/>
             <when state="dasia" output="Ῥ"/>
-            <when state="psili" output="Ῥ"/>
+            <when state="psili" output="Ρ̓"/>
         </action>
         <action id="Ω">
             <when state="none" output="Ω"/>
@@ -1456,7 +1456,6 @@
         <action id="ρ">
             <when state="none" output="ρ"/>
             <when state="dasia" output="ῥ"/>
-            <when state="psili" output="ῤ"/>
         </action>
         <action id="ω">
             <when state="none" output="ω"/>
