@@ -1,6 +1,7 @@
 #Présentation
 
 Méthode de saisie du grec polytonique (ancien), adaptée aux claviers suisses romands.
+Pour le moment seul le modèle mac est fonctionnel. 
 
 # Ordre de saisie
 
@@ -13,7 +14,7 @@ Méthode de saisie du grec polytonique (ancien), adaptée aux claviers suisses r
 
 # Les différents branches git 
 
-Correspondent à des variations du modèles.
+Correspondent à des variations du modèle (pour Mac)
 
 - *master* : la base
 - *apparat* : outils pour l'apparat critique (non développé)
