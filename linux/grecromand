@@ -14,7 +14,7 @@ xkb_symbols "grecromand" {
 		key <AD06> {[U3B6,U0396]};//dzeta
 		key <AC06> {[U3B7,U0397]};//eta
 		key <AD01> {[U3B8,U0398]};//theta
-		key <AD08> {[U3B9,U0399]};//iota
+		key <AD08> {[U3B9,U0399,U0345]};//iota + iotasouscrit
 		key <AC08> {[U3BA,U039A]};//kappa
 		key <AC09> {[U3BB,U039B]};//lambda
 		key <AB07> {[U3BC,U039C]};//mu
