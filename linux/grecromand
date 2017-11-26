@@ -1,0 +1,35 @@
+// Configuration grec polytonique adapté aux touches d'un clavier romand 
+default  partial alphanumeric_keys
+
+partial alphanumeric_keys
+xkb_symbols "grecromand" {
+
+    include "ch(fr)"
+    name[Group1]= "Grec romand";
+    key <AC01> {[U03B1,U0391]};//alpha
+		key <AB05> {[U03B2,U0392]};//beta
+		key <AC05> {[U3B3,U0393]};//gamma
+		key <AC03> {[U3B4,U0394]};//delta
+		key <AD03> {[U3B5,U0395]};//epsilon
+		key <AD06> {[U3B6,U0396]};//dzeta
+		key <AC06> {[U3B7,U0397]};//eta
+		key <AD01> {[U3B8,U0398]};//theta
+		key <AD08> {[U3B9,U0399]};//iota
+		key <AC08> {[U3BA,U039A]};//kappa
+		key <AC09> {[U3BB,U039B]};//lambda
+		key <AB07> {[U3BC,U039C]};//mu
+		key <AB06> {[U3BD,U039D]};//nu
+		key <AB02> {[U3BE,U039E]};//xi
+		key <AD09> {[U3BF,U039F]};//omicron
+		key <AD10> {[U3C0,U03A0]};//pi
+		key <AD04> {[U3C1,U03A1]};//rho
+		key <AC07> {[U3C2,U03A3]};//sigma final 
+		key <AC02> {[U3C3,U03A3]};//sigma standard 
+		key <AD05> {[U3C4,U03A4]};//tau 
+		key <AD07> {[U3C5,U03A5]};//upsilon
+		key <AC04> {[U3C6,U03A6]};//phi
+		key <AB03> {[U3C7,U03A7]};//khi
+		key <AB01> {[U3C8,U3A8]};//psi
+		key <AD02> {[U3C9,U03A9]};//omega
+};
+
