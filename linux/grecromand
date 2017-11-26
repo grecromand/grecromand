@@ -31,5 +31,11 @@ xkb_symbols "grecromand" {
 		key <AB03> {[U3C7,U03A7]};//khi
 		key <AB01> {[U3C8,U3A8]};//psi
 		key <AD02> {[U3C9,U03A9]};//omega
+
+		key <AD11> {[dead_grave]};//accent grave
+		key <AC10> {[dead_acute]};//accent aigu
+		key <AE12> {[dead_tilde]};//accent circonflexe
+		key <AC11> {[dead_psili]};//esprit doux
+		key <BKSL> {[dead_dasia]};//esprit rude
 };
 
