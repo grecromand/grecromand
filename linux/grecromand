@@ -37,5 +37,8 @@ xkb_symbols "grecromand" {
 		key <AE12> {[dead_tilde]};//accent circonflexe
 		key <AC11> {[dead_psili]};//esprit doux
 		key <BKSL> {[dead_dasia]};//esprit rude
+
+		key <AB08> {[U0002C,U037E]};//virgule, 
+		key <AB09> {[U002E,U0387]};//point ; point en haut
 };
 
