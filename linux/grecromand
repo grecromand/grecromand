@@ -40,5 +40,7 @@ xkb_symbols "grecromand" {
 
 		key <AB08> {[U0002C,U037E]};//virgule, 
 		key <AB09> {[U002E,U0387]};//point ; point en haut
+		
+		key <AE11> {[U2019,questionmark,U0374]};//marque d'ellission, point d'interro latin, signe numérique
 };
 
