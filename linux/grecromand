@@ -24,7 +24,7 @@ xkb_symbols "grecromand" {
 		key <AD10> {[U3C0,U03A0]};//pi
 		key <AD04> {[U3C1,U03A1]};//rho
 		key <AC07> {[U3C2,U03A3]};//sigma final 
-		key <AC02> {[U3C3,U03A3]};//sigma standard 
+		key <AC02> {[U3C3,U03A3,U3C2]};//sigma standard  + sigma final sur altgr
 		key <AD05> {[U3C4,U03A4]};//tau 
 		key <AD07> {[U3C5,U03A5]};//upsilon
 		key <AC04> {[U3C6,U03A6]};//phi
