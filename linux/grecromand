@@ -28,7 +28,7 @@ xkb_symbols "grecromand" {
 		key <AD05> {[Greek_tau,Greek_TAU]};//tau 
 		key <AD07> {[Greek_upsilon,Greek_UPSILON]};//upsilon
 		key <AC04> {[Greek_phi,Greek_PHI]};//phi
-		key <AB03> {[Greek_xi,Greek_XI]};//khi
+		key <AB03> {[Greek_chi,Greek_CHI]};//khi
 		key <AB01> {[Greek_psi,Greek_PSI]};//psi
 		key <AD02> {[Greek_omega,Greek_OMEGA]};//omega
 
