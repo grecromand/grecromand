@@ -30,7 +30,7 @@ xkb_symbols "grecromand" {
 		key <AC04> {[Greek_phi,Greek_PHI]};//phi
 		key <AB03> {[Greek_xi,Greek_XI]};//khi
 		key <AB01> {[Greek_psi,Greek_PSI]};//psi
-		key <AD02> {[Greek_omaga,Greek_OMEGA]};//omega
+		key <AD02> {[Greek_omega,Greek_OMEGA]};//omega
 
 		key <AD11> {[dead_grave]};//accent grave
 		key <AC10> {[dead_acute]};//accent aigu
